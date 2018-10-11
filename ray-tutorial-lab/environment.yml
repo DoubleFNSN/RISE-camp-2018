@@ -1,0 +1,11 @@
+name: ray-tutorial
+channels:
+    - conda-forge
+dependencies:
+  - python=3.6
+  - bokeh
+  - ipywidgets=6.0.0
+  - tensorflow
+  - pip:
+    - ray[rllib]=0.5.3
+    - keras
