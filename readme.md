@@ -1,6 +1,13 @@
 # About
 This repo contains the materials gathered from Berkley Rise camp.
 
+# Quick description of each event/product:
+* Ray: Distributed framework for executing python codes (you can split tasks to multiple cpu/gpu or even node). This makes ML faster.
+* Ray Tune: Helps scale model training
+* Clipper: Helps package models in container and allows serving this in scale.
+* Flor: helps version ML/AI experiments.
+
+
 # Agenda
 
 9:00AM: Tutorial overview  [Ionel Gog]
@@ -24,14 +31,19 @@ This repo contains the materials gathered from Berkley Rise camp.
 5:30-6:30PM: Flor Tutorial Lab
 6:30­ – 9:00PM: Reception
 
-# Quick description of each event:
-* Ray: Distributed framework for executing python codes (you can split tasks to multiple cpu/gpu or even node). This makes ML faster.
-* Ray Tune: Helps scale model training
-* Clipper: Helps package models in container and allows serving this in scale.
+
+# Project resources
+### Ray:
+Documentation: http://ray.readthedocs.io/en/latest/index.html
+
+Code: https://github.com/ray-project/ray
+
+Tutorial: https://github.com/ray-project/tutorial
 
 
 
-# Tune
+
+### Tune
 Tune is a scalable framework for model training and hyperparameter search with a focus on deep learning and deep reinforcement learning.
 
 Code: https://github.com/ray-project/ray/tree/master/python/ray/tune
@@ -40,4 +52,7 @@ Examples: https://github.com/ray-project/ray/tree/master/python/ray/tune/example
 
 Documentation: http://ray.readthedocs.io/en/latest/tune.html
 
-Mailing List https://groups.google.com/forum/#!forum/ray-dev
+
+
+### Flor
+Project page: https://github.com/ucbrise/flor
