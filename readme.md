@@ -2,14 +2,20 @@
 This repo contains the materials gathered from Berkley Rise camp.
 
 # Quick description of each event/product:
-* Ray: Distributed framework for executing python codes (you can split tasks to multiple cpu/gpu or even node). This makes ML faster.
-* Ray Tune: Helps scale model training
+* Ray: Distributed framework for executing python codes (you can split tasks to multiple cpu/gpu or even node)
+* Ray Tune: Helps scale model training. its a framework for hyperparameter search.
 * Clipper: Helps package models in container and allows serving this in scale.
-* Flor: helps version ML/AI experiments.
+* Flor: helps version control ML/AI experiments.
+* PyWren: Allows you to execute python functions on aws lambda.
+* Opaque: Encrypted dataframe for Sparks. (still alpha)
+
 
 
 # Agenda
 
+Theme: Systems support for Emerging AI applications
+
+## Day 1
 - 9:00AM: Tutorial overview  [Ionel Gog]
 - 9:15AM: Ray: Distributed Execution Framework for Emerging AI Applications
 - 9:15 – ­9:45AM: Ray Talk [Phillip Moritz]
@@ -31,6 +37,29 @@ This repo contains the materials gathered from Berkley Rise camp.
 - 5:30-6:30PM: Flor Tutorial Lab
 - 6:30­ – 9:00PM: Reception
 
+
+## Day 2
+
+Theme: Data Analytics and Security
+
+- 8:00AM: Breakfast
+- 9:00: Tutorial Overview [Chia-Che Tsai]
+- 9:15AM: PyWren: Pushing Microservices to Teraflops
+- 9:15 – ­9:45AM: PyWren Talk [Eric Jonas]
+- 9:45 – ­10:45AM: PyWren Tutorial Lab
+- 10:45AM: Break
+- 11:15AM : Opaque: Secure analytics on SparkSQL
+- 11:15 – ­11:45AM : Opaque Talk [Ankur Dave]
+- 11:45 – ­12:45AM: Opaque Tutorial Lab
+- 12:45 ­- 2:00PM: Lunch
+- 2:00PM: WAVE: Global-scale Authorization for IoT without an Authority
+- 2:00 – ­2:30­PM: WAVE talk [Michael Andersen]
+- 2­:30 – ­3:30PM WAVE Tutorial lab
+- 3:30PM:Integrated tutorial: Ray+Clipper+Flor+WAVE
+- 4:30 – ­4:45PM Concluding remarks [Raluca Popa]
+
+
+## tutorial notebooks are available on each directory of this project
 
 # Project resources
 ### Ray:
@@ -56,3 +85,12 @@ Documentation: http://ray.readthedocs.io/en/latest/tune.html
 
 ### Flor
 Project page: https://github.com/ucbrise/flor
+
+
+### PyWren
+Project page: https://github.com/pywren/pywren
+
+### Opaque
+https://github.com/ucbrise/opaque
+
+
